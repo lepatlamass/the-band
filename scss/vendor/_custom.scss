@@ -7,13 +7,25 @@
 $black:  #1f1f1f;
 $red:    #e23400;
 $white:  #FFFFFF;
+$gray:   #2d2d2d;
+$gray-light: lighten($gray, 40%);
 
+$brand-primary:  $red;
 
-$gray:                      #2d2d2d;
+$enable-rounded:  false;
 
-$brand-primary:             $red;
+$body-bg:   $gray;
+$body-color:   $white;
 
-$enable-rounded:            false;
+$font-size-base: 1.3rem;
+$display1-size: 12vw;
+$lead-font-size: 1.65rem;
 
-$body-bg:                   $black;
-$body-color:                $white;
+$btn-padding-y: .5em;
+$btn-padding-x: 2em;
+
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+
+$bold: $font-weight-bold;
+$normal: $font-weight-normal; 
